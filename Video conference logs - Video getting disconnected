@@ -1,0 +1,487 @@
+signin_type: online
+host_property: 
+sdk_user_domain: xyz.onmicrosoft.com
+13:59:40:376 [MEDIA]  MediaStream (undefined): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:40:382 [MEDIA]  MediaStream (undefined): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:40:386 [MEDIA]  VideoChannel Self Channel (): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:40:389 [MODEL]  Participant ()::audioSourceId:: undefined=>-1 undefined
+13:59:40:389 [MODEL]  Participant ()::videoSourceId:: undefined=>-1 undefined
+13:59:40:389 [MODEL]  Participant ()::state:: undefined=>Disconnected undefined
+13:59:40:389 [MODEL]  Participant ()::audio state:: undefined=>Disconnected undefined
+13:59:40:389 [MODEL]  Participant ()::video state:: undefined=>Disconnected undefined
+13:59:40:411 [MEDIA]  MediaStream (undefined): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:40:413 [MEDIA]  MediaStream (-2): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:40:415 [MEDIA]  VideoChannel ActiveSpeaker Channel (): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:40:419 [MEDIA]  AudioVideoModality(05909b02bb574)::reset undefined
+13:59:40:419 [MEDIA]  AudioVideoModality(05909b02bb574) created
+13:59:40:432 [MEDIA]  AudioVideoModality(05909b02bb574)::start {"video":true}
+13:59:40:444 [MEDIA]  MediaStream (-2): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:40:445 [MEDIA]  MediaStream (undefined): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:40:448 [REQUEST]  %c -> 2 GET color:blue;font-weight:bold false
+13:59:40:455 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::resetVideo undefined
+13:59:40:456 [MEDIA]  Participant::SetVideoStream  stream %cnull, satxyz color:green;font-weight:bold
+13:59:40:456 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::resetAudio undefined
+13:59:40:457 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5) created
+13:59:40:762 [REQUEST]  %c -> 3 POST color:blue;font-weight:bold false {"operationId":"988f26a8-3810-43be-b780-5163b061230e","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","subject":"","importance":"Normal"}
+13:59:42:480 [REQUEST]  %c <- 1 POST color:green;font-weight:bold false
+13:59:42:482 [REQUEST]  %c -> 4 GET color:blue;font-weight:bold false
+13:59:42:955 [REQUEST]  %c <- 4 GET color:green;font-weight:bold false {"rel":"me","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/me"},"note":{"href":"/ucwa/oauth/v1/applications/111259687377/me/note"},"presence":{"href":"/ucwa/oauth/v1/applications/111259687377/me/presence"},"location":{"href":"/ucwa/oauth/v1/applications/111259687377/me/location"},"reportMyActivity":{"href":"/ucwa/oauth/v1/applications/111259687377/me/reportMyActivity"},"photo":{"href":"/ucwa/oauth/v1/applications/111259687377/photos/satxyz@xyz.onmicrosoft.com"}},"uri":"sip:satxyz@xyz.onmicrosoft.com","name":"satxyz","emailAddresses":["satxyz@xyz.onmicrosoft.com"],"endpointUri":"sip:satxyz@xyz.onmicrosoft.com;opaque=user:epid:AjP2zIUGM1C4G9EwVaX9yQAA;gruu"}
+13:59:43:84 [EVENT]  {"type":"started","target":{"rel":"onlineMeetingInvitation","href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations/26f8ee83cff24951bf8297b767858145"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"onlineMeetingInvitation","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations/26f8ee83cff24951bf8297b767858145"},"from":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":""},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"}},"direction":"Outgoing","importance":"Normal","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","state":"Connecting","operationId":"988f26a8-3810-43be-b780-5163b061230e","onlineMeetingUri":"adhoc"}}
+13:59:43:93 [EVENT]  {"type":"added","target":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"conversation","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"applicationSharing":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/applicationSharing"},"audioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"dataCollaboration":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/dataCollaboration"},"messaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/messaging"},"phoneAudio":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/phoneAudio"},"localParticipant":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"},"participants":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants"},"addParticipant":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/participantInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"},"leaders":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=leaders"},"attendees":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=attendees"},"lobby":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=lobby"},"onlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/onlineMeeting"},"disableAudienceMessaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/disableAudienceMessaging"}},"state":"Conferenced","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","subject":"","activeModalities":[],"importance":"Normal","participantCount":1,"audienceMessaging":"Enabled","recording":false}}
+13:59:43:100 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: conversation added
+13:59:43:101 [EVENT]  {"type":"added","target":{"rel":"localParticipant","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":""},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"from","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"me":{"href":"/ucwa/oauth/v1/applications/111259687377/me"}},"sourceNetwork":"SameEnterprise","anonymous":false,"local":true,"name":"satxyz","uri":"sip:satxyz@xyz.onmicrosoft.com","role":"Leader","organizer":true}}
+13:59:43:104 [EVENT]  {"type":"updated","target":{"rel":"me","href":"/ucwa/oauth/v1/applications/111259687377/me"},"sender":{"rel":"me","href":"/ucwa/oauth/v1/applications/111259687377/me"}}
+13:59:43:104 [EVENT]  {"type":"added","target":{"rel":"presence","href":"/ucwa/oauth/v1/applications/111259687377/me/presence"},"sender":{"rel":"me","href":"/ucwa/oauth/v1/applications/111259687377/me"}}
+13:59:43:105 [REQUEST]  %c -> 5 GET color:blue;font-weight:bold false
+13:59:43:106 [EVENT]  {"type":"added","target":{"rel":"note","href":"/ucwa/oauth/v1/applications/111259687377/me/note"},"sender":{"rel":"me","href":"/ucwa/oauth/v1/applications/111259687377/me"}}
+13:59:43:106 [REQUEST]  %c -> 6 GET color:blue;font-weight:bold false
+13:59:43:107 [EVENT]  {"type":"added","target":{"rel":"location","href":"/ucwa/oauth/v1/applications/111259687377/me/location"},"sender":{"rel":"me","href":"/ucwa/oauth/v1/applications/111259687377/me"}}
+13:59:43:107 [REQUEST]  %c -> 7 GET color:blue;font-weight:bold false
+13:59:43:108 [EVENT]  {"type":"updated","target":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"communication","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication"},"mediaRelayAccessToken":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/mediaRelayAccessToken"},"mediaPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/mediaPolicies"},"conversations":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations?filter=active"},"startMessaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/messagingInvitations","revision":"2"},"startAudioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations","revision":"2"},"startScreenSharing":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/applicationSharingInvitations","revision":"2"},"startOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations?onlineMeetingUri=adhoc"},"joinOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations"},"missedItems":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/missedItems"}},"simultaneousRingNumberMatch":"Disabled","videoBasedScreenSharing":"Enabled","44ef120b-d8ea-4ed1-a138-fa368e68cd23":"please pass this in a PUT request","supportedModalities":["Messaging","Audio","Video"],"supportedMessageFormats":["Plain","Html"],"voipFallbackToPhoneAudioTimeOut":"00:00:00","audioPreference":"PhoneAudio","conversationHistory":"Disabled","publishEndpointLocation":true,"etag":"3688189576"}}
+13:59:43:110 [EVENT]  {"type":"added","in":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"target":{"rel":"onlineMeeting","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/onlineMeeting"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"onlineMeeting","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/onlineMeeting"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"organizer":{"href":"/ucwa/oauth/v1/applications/111259687377/people/satxyz@xyz.onmicrosoft.com"},"phoneDialInInformation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/onlineMeeting/phoneDialInInformation"}},"onlineMeetingUri":"sip:satxyz@xyz.onmicrosoft.com;gruu;opaque=app:conf:focus:id:8A8WKNAE","organizerUri":"sip:satxyz@xyz.onmicrosoft.com","organizerName":"satxyz","disclaimerBody":"","disclaimerTitle":"","hostingNetwork":"SameEnterprise","largeMeeting":"Disabled","joinUrl":"https://meet.lync.com/iondl/satxyz/8A8WKNAE"}}
+13:59:43:115 [EVENT]  {"type":"updated","target":{"rel":"applicationSharing","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/applicationSharing"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"applicationSharing","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/applicationSharing"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"applicationSharingPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/applicationSharing/policies"},"addScreenSharing":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/applicationSharingInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"}},"state":"Disconnected"}}
+13:59:43:116 [EVENT]  {"type":"updated","target":{"rel":"messaging","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/messaging"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"messaging","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/messaging"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"addMessaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/messagingInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"}},"state":"Disconnected"}}
+13:59:43:116 [EVENT]  {"type":"updated","target":{"rel":"dataCollaborationSettings","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/dataCollaboration/settings"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"}}
+13:59:43:117 [EVENT]  {"type":"updated","target":{"rel":"dataCollaboration","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/dataCollaboration"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"dataCollaboration","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/dataCollaboration"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"addDataCollaboration":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/dataCollaborationInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"},"dataCollaborationPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/dataCollaboration/policies"},"dataCollaborationSettings":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/dataCollaboration/settings"}},"state":"Disconnected"}}
+13:59:43:118 [EVENT]  {"type":"updated","target":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"audioVideo","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"audioVideoPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/policies"},"addAudioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"}},"state":"Disconnected","videoSourcesAllowed":"Everyone"}}
+13:59:43:118 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: audioVideo updated
+13:59:43:121 [EVENT]  {"type":"completed","status":"Success","target":{"rel":"onlineMeetingInvitation","href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations/26f8ee83cff24951bf8297b767858145"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"onlineMeetingInvitation","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations/26f8ee83cff24951bf8297b767858145"},"from":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"}},"direction":"Outgoing","importance":"Normal","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","state":"Connected","operationId":"988f26a8-3810-43be-b780-5163b061230e","onlineMeetingUri":"adhoc"}}
+13:59:43:121 [REQUEST]  %c -> 8 GET color:blue;font-weight:bold false
+13:59:43:122 [EVENT]  {"type":"updated","target":{"rel":"phoneAudio","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/phoneAudio"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"phoneAudio","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/phoneAudio"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"addPhoneAudio":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/phoneAudioInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"}},"state":"Disconnected"}}
+13:59:43:201 [REQUEST]  %c <- 3 POST color:green;font-weight:bold false {"rel":null,"_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations/26f8ee83cff24951bf8297b767858145"}}}
+13:59:43:203 [REQUEST]  %c <- 2 GET color:green;font-weight:bold false {"rel":"mediaRelayAccessToken","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/mediaRelayAccessToken"}},"duration":480,"Uri":"sip:satxyz@xyz.onmicrosoft.com","validUntil":"/Date(1487348985123)/","_embedded":{"mediaRelay":{"rel":"mediaRelay","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/mediaRelayAccessToken"}},"host":"eu.turn.skype.com","location":"Internet","tcpPort":443,"udpPort":3478,"ipv4":"13.107.8.150","ipv6":"::1"}}}
+13:59:43:206 [MEDIA]  DeviceManager: retrieving media stream:  {"audio":true,"video":true}
+13:59:43:209 [MEDIA]  MediaStream: queueing media stream update to: {"audio":true,"video":true}
+13:59:43:210 [MEDIA]  DeviceEnumerator: starting device polling
+13:59:43:211 [MEDIA]  MediaStream: querying user media for stream: {"audio":true,"video":true}
+13:59:43:233 [MEDIA]  MediaStream: control media stream track kind: audio enabled: true muted: false
+13:59:43:233 [MEDIA]  MediaStream: control media stream track kind: video enabled: true muted: false
+13:59:43:233 [MEDIA]  MediaStream: media stream updated
+13:59:43:233 [MEDIA]  MediaStream: control media stream track kind: audio enabled: true muted: false
+13:59:43:233 [MEDIA]  MediaStream: control media stream track kind: video enabled: true muted: false
+13:59:43:234 [MEDIA]  DeviceManager: created media stream generation: 0 cached: 1 audio: true video: true
+13:59:43:243 [MEDIA]  DeviceManager: release media stream generation: 0 cached: 1 audio: true video: true
+13:59:43:243 [MEDIA]  DeviceEnumerator: stopping device polling
+13:59:43:243 [MEDIA]  MediaStream: queueing media stream stop
+13:59:43:244 [MEDIA]  MediaStream: media stream stopped
+13:59:43:250 [MEDIA]  DeviceEnumerator: media device removed kind: camera id: default_video_device label: Default video device
+13:59:43:256 [MEDIA]  MediaStream (c37b80e71f5369f6a7ce01323e826581d67d61cba1807c39be5d91e9f434dff3): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:43:257 [MEDIA]  VideoChannel Laptop_Integrated_Webcam_1.3M (0408:1f22) (c37b80e71f5369f6a7ce01323e826581d67d61cba1807c39be5d91e9f434dff3): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:43:262 [MEDIA]  MediaStream (c37b80e71f5369f6a7ce01323e826581d67d61cba1807c39be5d91e9f434dff3): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:43:262 [MEDIA]  VideoChannel Laptop_Integrated_Webcam_1.3M (0408:1f22) (c37b80e71f5369f6a7ce01323e826581d67d61cba1807c39be5d91e9f434dff3): stream state: %cundefined -> Stopped color:green;font-weight:bold Reason:  undefined
+13:59:43:267 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::start {"audioConfig":3,"mainVideoConfig":3,"video":true}
+13:59:43:268  [MEDIA] WebRtcAudioVideoSession(9ddbb323349c5)::state:: %c Disconnected -> Connecting,color:green;font-weight:bold
+13:59:43:268  [MEDIA] AudioVideoModality(05909b02bb574)::state:: %c Disconnected -> Connecting,color:green;font-weight:bold
+13:59:43:268  [MEDIA] WebRtcAudioVideoSession(9ddbb323349c5)::audioState:: %c Disconnected -> Connecting,color:green;font-weight:bold
+13:59:43:268  [MEDIA] AudioVideoModality(05909b02bb574)::audioState:: %c Disconnected -> Connecting,color:green;font-weight:bold
+13:59:43:268 [MODEL]  Participant (satxyz)::audio state:: Disconnected=>Connecting undefined
+13:59:43:285  [MEDIA] WebRtcAudioVideoSession(9ddbb323349c5)::videoState:: %c Disconnected -> Connecting,color:green;font-weight:bold
+13:59:43:285  [MEDIA] AudioVideoModality(05909b02bb574)::videoState:: %c Disconnected -> Connecting,color:green;font-weight:bold
+13:59:43:285 [MODEL]  Participant (satxyz)::video state:: Disconnected=>Connecting undefined
+13:59:43:307 [MEDIA]  webrtc: configure modalities audio: sendrecv video: sendrecv screensharing undefined peerconnection: false pc.signalingState: - needNewRenegotiation: true
+13:59:43:307 [MEDIA]  webrtc: triggering renegotiation
+13:59:43:308 [MEDIA]  NEGO REQUIRED
+13:59:43:331 [MEDIA]  Participant::SetVideoStream  stream %cundefined, satxyz color:green;font-weight:bold
+13:59:43:333 [MEDIA]  webrtc: create [offer] configured: {"audio":"sendrecv","video":"sendrecv"}
+13:59:43:564 [REQUEST]  %c <- 5 GET color:green;font-weight:bold false {"rel":"presence","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/me/presence"}},"availability":"Busy","activity":"on-the-phone"}
+13:59:43:564 [REQUEST]  %c <- 6 GET color:green;font-weight:bold false {"rel":"note","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/me/note"}},"message":"Today is a great day !!","type":"Personal"}
+13:59:43:565 [REQUEST]  %c <- 7 GET color:green;font-weight:bold false {"rel":"location","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/me/location"}},"location":""}
+13:59:43:565 [REQUEST]  %c <- 8 GET color:green;font-weight:bold false {"rel":"conversation","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"applicationSharing":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/applicationSharing"},"audioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"dataCollaboration":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/dataCollaboration"},"messaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/messaging"},"phoneAudio":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/phoneAudio"},"localParticipant":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"},"participants":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants"},"addParticipant":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/participantInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"},"leaders":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=leaders"},"attendees":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=attendees"},"lobby":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=lobby"},"onlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/onlineMeeting"},"disableAudienceMessaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/disableAudienceMessaging"}},"state":"Conferenced","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","subject":"","activeModalities":[],"importance":"Normal","participantCount":1,"audienceMessaging":"Enabled","recording":false}
+13:59:44:443 [REQUEST]  %c -> 9 PUT color:blue;font-weight:bold false {"rel":"communication","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication"},"mediaRelayAccessToken":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/mediaRelayAccessToken"},"mediaPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/mediaPolicies"},"conversations":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations?filter=active"},"startMessaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/messagingInvitations","revision":"2"},"startAudioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations","revision":"2"},"startScreenSharing":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/applicationSharingInvitations","revision":"2"},"startOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations?onlineMeetingUri=adhoc"},"joinOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations"},"missedItems":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/missedItems"}},"simultaneousRingNumberMatch":"Disabled","videoBasedScreenSharing":"Enabled","44ef120b-d8ea-4ed1-a138-fa368e68cd23":"please pass this in a PUT request","supportedModalities":["Messaging","Audio","Video"],"supportedMessageFormats":["Plain","Html"],"voipFallbackToPhoneAudioTimeOut":"00:00:00","audioPreference":"PhoneAudio","conversationHistory":"Enabled","publishEndpointLocation":true,"etag":"3688189576"}
+13:59:44:640 [MEDIA]  GET https://eu.turn.skype.com/relay returned 200 {
+  "relay": "104.44.200.212",
+  "iip": "104.44.200.212",
+  "realm": "rtcmedia"
+}
+13:59:44:641 [MEDIA]  webrtc: configuring peer connection to use sdes
+13:59:44:642 [MEDIA]  webrtc: create peer connection
+13:59:44:649 [MEDIA]  webrtc: updatePeerConnectionStreamsAsync pc state stable hold [ false -> false ] audio [ false -> true ] video [ false -> true ] screensharing [ false -> false ]
+13:59:44:649 [MEDIA]  webrtc: not using any media(track api) track, remove all senders
+13:59:44:650 [MEDIA]  DeviceManager: retrieving media stream:  {"audio":true,"video":true}
+13:59:44:650 [MEDIA]  MediaStream: queueing media stream update to: {"audio":true,"video":true}
+13:59:44:650 [MEDIA]  DeviceEnumerator: starting device polling
+13:59:44:650 [MEDIA]  MediaStream: querying user media for stream: {"audio":true,"video":true}
+13:59:44:659 [MEDIA]  MediaStream: control media stream track kind: audio enabled: true muted: false
+13:59:44:659 [MEDIA]  MediaStream: control media stream track kind: video enabled: true muted: false
+13:59:44:659 [MEDIA]  MediaStream: media stream updated
+13:59:44:659 [MEDIA]  MediaStream: control media stream track kind: audio enabled: true muted: false
+13:59:44:659 [MEDIA]  MediaStream: control media stream track kind: video enabled: true muted: false
+13:59:44:659 [MEDIA]  DeviceManager: created media stream generation: 1 cached: 1 audio: true video: true
+13:59:44:660 [MEDIA]  webrtc: add media track kind: audio id: 61dd520f-7f80-419f-9a0a-897b902e11bb
+13:59:44:661 [MEDIA]  webrtc: add media track kind: video id: f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+13:59:44:666 [MEDIA]  webrtc: onnegotiationneeded signalingState: stable
+13:59:44:667 [MEDIA]  webrtc: create [offer] offered: {"audio":"sendrecv","video":"sendrecv"} constraints: {"offerToReceiveAudio":1,"offerToReceiveVideo":1}
+13:59:44:672 [MEDIA]  webrtc: create [offer] offer from peer connection sdp: v=0
+o=- 3089328233510711612 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE audio video
+a=msid-semantic: WMS 1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc
+m=audio 9 RTP/SAVPF 111 103 104 9 0 8 106 105 13 126
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:Cb1F
+a=ice-pwd:jCdYb+1uamGfuprTSoyrXIo4
+a=mid:audio
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=sendrecv
+a=rtcp-mux
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:uv0bkez4+lKVygigrAqGlYKhWPOv8rFAr9gFOXUN
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:103 ISAC/16000
+a=rtpmap:104 ISAC/32000
+a=rtpmap:9 G722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:106 CN/32000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:126 telephone-event/8000
+a=ssrc:3079205737 cname:pQSzVa2pMV/9TYO+
+a=ssrc:3079205737 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc 61dd520f-7f80-419f-9a0a-897b902e11bb
+a=ssrc:3079205737 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc
+a=ssrc:3079205737 label:61dd520f-7f80-419f-9a0a-897b902e11bb
+m=video 9 RTP/SAVPF 100 101 107 116 117 96 97 99 98
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:Cb1F
+a=ice-pwd:jCdYb+1uamGfuprTSoyrXIo4
+a=mid:video
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=sendrecv
+a=rtcp-mux
+a=rtcp-rsize
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:uv0bkez4+lKVygigrAqGlYKhWPOv8rFAr9gFOXUN
+a=rtpmap:100 VP8/90000
+a=rtcp-fb:100 ccm fir
+a=rtcp-fb:100 nack
+a=rtcp-fb:100 nack pli
+a=rtcp-fb:100 goog-remb
+a=rtcp-fb:100 transport-cc
+a=rtpmap:101 VP9/90000
+a=rtcp-fb:101 ccm fir
+a=rtcp-fb:101 nack
+a=rtcp-fb:101 nack pli
+a=rtcp-fb:101 goog-remb
+a=rtcp-fb:101 transport-cc
+a=rtpmap:107 H264/90000
+a=rtcp-fb:107 ccm fir
+a=rtcp-fb:107 nack
+a=rtcp-fb:107 nack pli
+a=rtcp-fb:107 goog-remb
+a=rtcp-fb:107 transport-cc
+a=fmtp:107 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+a=rtpmap:116 red/90000
+a=rtpmap:117 ulpfec/90000
+a=rtpmap:96 rtx/90000
+a=fmtp:96 apt=100
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=101
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=107
+a=rtpmap:98 rtx/90000
+a=fmtp:98 apt=116
+a=ssrc-group:FID 3264087813 1482499149
+a=ssrc:3264087813 cname:pQSzVa2pMV/9TYO+
+a=ssrc:3264087813 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+a=ssrc:3264087813 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc
+a=ssrc:3264087813 label:f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+a=ssrc:1482499149 cname:pQSzVa2pMV/9TYO+
+a=ssrc:1482499149 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+a=ssrc:1482499149 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc
+a=ssrc:1482499149 label:f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+
+13:59:44:679 [MEDIA]  webrtc: reset candidate gathering
+13:59:44:688 [MEDIA]  webrtc: onsignalingstatechange signalingState: have-local-offer
+13:59:44:692 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:692 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:693 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:693 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:790 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:791 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:792 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:793 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:881 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:44:885 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:45:111 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:45:129 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:45:411 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:45:451 [MEDIA]  webrtc: onicecandidate candidate: [object RTCIceCandidate]
+13:59:45:755 [REQUEST]  %c <- 9 PUT color:green;font-weight:bold false
+13:59:50:742 [EVENT]  {"type":"updated","target":{"rel":"missedItems","href":"/ucwa/oauth/v1/applications/111259687377/communication/missedItems"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"missedItems","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/missedItems"},"missedConversations":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations?filter=missed"}},"missedConversationsCount":2,"unreadMissedConversationsCount":2,"voiceMailsCount":0,"unreadVoicemailsCount":0,"conversationLogsCount":42,"conversationLogsNotifications":"Enabled"}}
+13:59:50:745 [EVENT]  {"type":"updated","target":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"communication","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication"},"mediaRelayAccessToken":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/mediaRelayAccessToken"},"mediaPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/mediaPolicies"},"conversations":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations?filter=active"},"startMessaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/messagingInvitations","revision":"2"},"startAudioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations","revision":"2"},"startScreenSharing":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/applicationSharingInvitations","revision":"2"},"startOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations?onlineMeetingUri=adhoc"},"joinOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/onlineMeetingInvitations"},"missedItems":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/missedItems"},"conversationLogs":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversationLogs?limit=100"}},"simultaneousRingNumberMatch":"Disabled","videoBasedScreenSharing":"Enabled","44ef120b-d8ea-4ed1-a138-fa368e68cd23":"please pass this in a PUT request","supportedModalities":["Messaging","Audio","Video"],"supportedMessageFormats":["Plain","Html"],"voipFallbackToPhoneAudioTimeOut":"00:00:00","audioPreference":"PhoneAudio","conversationHistory":"Enabled","publishEndpointLocation":true,"etag":"931020012"}}
+13:59:52:958 [REQUEST]  %c -> 10 POST color:blue;font-weight:bold false
+13:59:53:381 [REQUEST]  %c <- 10 POST color:green;font-weight:bold false
+13:59:54:243 [MEDIA]  webrtc: onicecandidate candidate: null
+13:59:54:269 [MEDIA]  webrtc: CREATE OFFER sdp: v=0
+o=- 3089328233510711612 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=msid-semantic: WMS *
+a=group:BUNDLE media_0 media_1
+m=audio 50092 RTP/SAVP 111 103 104 9 0 8 106 105 13 126
+c=IN IP4 104.44.200.212
+a=rtpmap:111 opus/48000/2
+a=rtpmap:103 ISAC/16000
+a=rtpmap:104 ISAC/32000
+a=rtpmap:9 G722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:106 CN/32000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:126 telephone-event/8000
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtcp:50092
+a=rtcp-fb:111 transport-cc
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:uv0bkez4+lKVygigrAqGlYKhWPOv8rFAr9gFOXUN|2^31
+a=mid:media_0
+a=sendrecv
+a=ice-ufrag:Cb1F
+a=ice-pwd:jCdYb+1uamGfuprTSoyrXIo4
+a=candidate:561832692 1 udp 41820159 104.44.200.212 50092 typ relay raddr 223.227.106.168 rport 6184
+a=candidate:1539514653 1 udp 1685987071 223.227.106.168 6184 typ srflx raddr 192.168.43.172 rport 50099
+a=candidate:1878990340 1 udp 25042687 104.44.200.212 56942 typ relay raddr 223.227.106.168 rport 6187
+a=candidate:2538479246 1 udp 2122194687 192.168.43.172 50099 typ host
+a=candidate:2999745851 1 udp 2122260223 192.168.56.1 50098 typ host
+a=candidate:3654148734 1 tcp-act 1518214911 192.168.43.172 9 typ host
+a=candidate:4233069003 1 tcp-act 1518280447 192.168.56.1 9 typ host
+a=ssrc:3079205737 cname:pQSzVa2pMV/9TYO+
+a=ssrc:3079205737 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc 61dd520f-7f80-419f-9a0a-897b902e11bb
+a=ssrc:3079205737 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc
+a=ssrc:3079205737 label:61dd520f-7f80-419f-9a0a-897b902e11bb
+a=rtcp-mux
+a=x-ssrc-range:3079205737-3079205737
+a=label:main-audio
+a=x-signaling-fb:* x-message app recv:dsh
+m=video 59532 RTP/SAVP 100 101 107 116 117 96 97 99 98
+c=IN IP4 104.44.200.212
+a=rtpmap:100 VP8/90000
+a=rtpmap:101 VP9/90000
+a=rtpmap:107 H264/90000
+a=rtpmap:116 red/90000
+a=rtpmap:117 ulpfec/90000
+a=rtpmap:96 rtx/90000
+a=rtpmap:97 rtx/90000
+a=rtpmap:99 rtx/90000
+a=rtpmap:98 rtx/90000
+a=fmtp:107 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;max-fs=1200;max-fps=3000
+a=fmtp:96 apt=100
+a=fmtp:97 apt=101
+a=fmtp:99 apt=107
+a=fmtp:98 apt=116
+a=rtcp:59532
+a=rtcp-fb:100 ccm fir
+a=rtcp-fb:100 nack
+a=rtcp-fb:100 nack pli
+a=rtcp-fb:100 goog-remb
+a=rtcp-fb:100 transport-cc
+a=rtcp-fb:101 ccm fir
+a=rtcp-fb:101 nack
+a=rtcp-fb:101 nack pli
+a=rtcp-fb:101 goog-remb
+a=rtcp-fb:101 transport-cc
+a=rtcp-fb:107 ccm fir
+a=rtcp-fb:107 nack
+a=rtcp-fb:107 nack pli
+a=rtcp-fb:107 goog-remb
+a=rtcp-fb:107 transport-cc
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http:\\www.webrtc.org\experiments\rtp-hdrext\abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:uv0bkez4+lKVygigrAqGlYKhWPOv8rFAr9gFOXUN|2^31
+a=mid:media_1
+a=sendrecv
+a=ice-ufrag:Cb1F
+a=ice-pwd:jCdYb+1uamGfuprTSoyrXIo4
+a=candidate:561832692 1 udp 41820159 104.44.200.212 59532 typ relay raddr 223.227.106.168 rport 6185
+a=candidate:1539514653 1 udp 1685987071 223.227.106.168 6185 typ srflx raddr 192.168.43.172 rport 50101
+a=candidate:1878990340 1 udp 25042687 104.44.200.212 58406 typ relay raddr 223.227.106.168 rport 6188
+a=candidate:2538479246 1 udp 2122194687 192.168.43.172 50101 typ host
+a=candidate:2999745851 1 udp 2122260223 192.168.56.1 50100 typ host
+a=candidate:3654148734 1 tcp-act 1518214911 192.168.43.172 9 typ host
+a=candidate:4233069003 1 tcp-act 1518280447 192.168.56.1 9 typ host
+a=ssrc:3264087813 cname:pQSzVa2pMV/9TYO+
+a=ssrc:3264087813 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+a=ssrc:3264087813 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc
+a=ssrc:3264087813 label:f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+a=ssrc:1482499149 cname:pQSzVa2pMV/9TYO+
+a=ssrc:1482499149 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+a=ssrc:1482499149 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc
+a=ssrc:1482499149 label:f514d2ff-8b50-4bc4-a5e1-49a6265b36b4
+a=ssrc-group:FID 3264087813 1482499149
+a=rtcp-mux
+a=rtcp-rsize
+a=x-ssrc-range:3264087813-3264087813
+a=label:main-video
+a=x-signaling-fb:* x-message app recv:csrc,src
+
+13:59:54:277 [REQUEST]  %c -> 11 GET color:blue;font-weight:bold false
+13:59:54:470 [REQUEST]  %c <- 11 GET color:green;font-weight:bold false {"rel":"audioVideo","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"audioVideoPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/policies"},"addAudioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"}},"state":"Disconnected","videoSourcesAllowed":"Everyone"}
+13:59:54:473 [REQUEST]  %c -> 12 POST color:blue;font-weight:bold false "--9BCE36B8-2C70-44CA-AAA6-D3D332ADBD3F\r\nContent-Type: application/vnd.microsoft.com.ucwa+json\r\nContent-Length: 311\r\n\r\n{\"operationId\":\"b2e1209b-b069-4064-afdc-1c9b4cc2c0a9\",\"threadId\":\"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==\",\"sessionContext\":\"40f5924f-29d3-4303-ba9d-cff4a5c83758\",\"mediaOffer\":\"cid:4EFFF0D8-65D2-4E52-9A1B-0FA835D4B478\",\"telemetryId\":\"0c7ec5e9-6822-43cb-bd76-c2ed254a2a3f\",\"joinAudioMuted\":false,\"joinVideoMuted\":false}\r\n--9BCE36B8-2C70-44CA-AAA6-D3D332ADBD3F\r\nContent-ID: 4EFFF0D8-65D2-4E52-9A1B-0FA835D4B478\r\nContent-Type: multipart/alternative;boundary=D63E5F1E-56D8-4EC4-B51B-02762CEA97D9;type=\"application/sdp\"\r\nContent-Length: 4511\r\n\r\n\r\n--D63E5F1E-56D8-4EC4-B51B-02762CEA97D9\r\nContent-Type: application/sdp\r\nContent-ID: 1\r\nContent-Length: 4353\r\n\r\nv=0\r\no=- 3089328233510711612 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=msid-semantic: WMS *\r\na=group:BUNDLE media_0 media_1\r\nm=audio 50092 RTP/SAVP 111 103 104 9 0 8 106 105 13 126\r\nc=IN IP4 104.44.200.212\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:126 telephone-event/8000\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtcp:50092\r\na=rtcp-fb:111 transport-cc\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:uv0bkez4+lKVygigrAqGlYKhWPOv8rFAr9gFOXUN|2^31\r\na=mid:media_0\r\na=sendrecv\r\na=ice-ufrag:Cb1F\r\na=ice-pwd:jCdYb+1uamGfuprTSoyrXIo4\r\na=candidate:561832692 1 udp 41820159 104.44.200.212 50092 typ relay raddr 223.227.106.168 rport 6184\r\na=candidate:1539514653 1 udp 1685987071 223.227.106.168 6184 typ srflx raddr 192.168.43.172 rport 50099\r\na=candidate:1878990340 1 udp 25042687 104.44.200.212 56942 typ relay raddr 223.227.106.168 rport 6187\r\na=candidate:2538479246 1 udp 2122194687 192.168.43.172 50099 typ host\r\na=candidate:2999745851 1 udp 2122260223 192.168.56.1 50098 typ host\r\na=candidate:3654148734 1 tcp-act 1518214911 192.168.43.172 9 typ host\r\na=candidate:4233069003 1 tcp-act 1518280447 192.168.56.1 9 typ host\r\na=ssrc:3079205737 cname:pQSzVa2pMV/9TYO+\r\na=ssrc:3079205737 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc 61dd520f-7f80-419f-9a0a-897b902e11bb\r\na=ssrc:3079205737 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc\r\na=ssrc:3079205737 label:61dd520f-7f80-419f-9a0a-897b902e11bb\r\na=rtcp-mux\r\na=x-ssrc-range:3079205737-3079205737\r\na=label:main-audio\r\na=x-signaling-fb:* x-message app recv:dsh\r\nm=video 59532 RTP/SAVP 100 101 107 116 117 96 97 99 98\r\nc=IN IP4 104.44.200.212\r\na=rtpmap:100 VP8/90000\r\na=rtpmap:101 VP9/90000\r\na=rtpmap:107 H264/90000\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 ulpfec/90000\r\na=rtpmap:96 rtx/90000\r\na=rtpmap:97 rtx/90000\r\na=rtpmap:99 rtx/90000\r\na=rtpmap:98 rtx/90000\r\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;max-fs=1200;max-fps=3000\r\na=fmtp:96 apt=100\r\na=fmtp:97 apt=101\r\na=fmtp:99 apt=107\r\na=fmtp:98 apt=116\r\na=rtcp:59532\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:101 ccm fir\r\na=rtcp-fb:101 nack\r\na=rtcp-fb:101 nack pli\r\na=rtcp-fb:101 goog-remb\r\na=rtcp-fb:101 transport-cc\r\na=rtcp-fb:107 ccm fir\r\na=rtcp-fb:107 nack\r\na=rtcp-fb:107 nack pli\r\na=rtcp-fb:107 goog-remb\r\na=rtcp-fb:107 transport-cc\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http:\\\\www.webrtc.org\\experiments\\rtp-hdrext\\abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:uv0bkez4+lKVygigrAqGlYKhWPOv8rFAr9gFOXUN|2^31\r\na=mid:media_1\r\na=sendrecv\r\na=ice-ufrag:Cb1F\r\na=ice-pwd:jCdYb+1uamGfuprTSoyrXIo4\r\na=candidate:561832692 1 udp 41820159 104.44.200.212 59532 typ relay raddr 223.227.106.168 rport 6185\r\na=candidate:1539514653 1 udp 1685987071 223.227.106.168 6185 typ srflx raddr 192.168.43.172 rport 50101\r\na=candidate:1878990340 1 udp 25042687 104.44.200.212 58406 typ relay raddr 223.227.106.168 rport 6188\r\na=candidate:2538479246 1 udp 2122194687 192.168.43.172 50101 typ host\r\na=candidate:2999745851 1 udp 2122260223 192.168.56.1 50100 typ host\r\na=candidate:3654148734 1 tcp-act 1518214911 192.168.43.172 9 typ host\r\na=candidate:4233069003 1 tcp-act 1518280447 192.168.56.1 9 typ host\r\na=ssrc:3264087813 cname:pQSzVa2pMV/9TYO+\r\na=ssrc:3264087813 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc f514d2ff-8b50-4bc4-a5e1-49a6265b36b4\r\na=ssrc:3264087813 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc\r\na=ssrc:3264087813 label:f514d2ff-8b50-4bc4-a5e1-49a6265b36b4\r\na=ssrc:1482499149 cname:pQSzVa2pMV/9TYO+\r\na=ssrc:1482499149 msid:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc f514d2ff-8b50-4bc4-a5e1-49a6265b36b4\r\na=ssrc:1482499149 mslabel:1yhfCsWoyfeIiPA0LPLjkDXtkdTfsSpe6ulc\r\na=ssrc:1482499149 label:f514d2ff-8b50-4bc4-a5e1-49a6265b36b4\r\na=ssrc-group:FID 3264087813 1482499149\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=x-ssrc-range:3264087813-3264087813\r\na=label:main-video\r\na=x-signaling-fb:* x-message app recv:csrc,src\r\n\r\n--D63E5F1E-56D8-4EC4-B51B-02762CEA97D9--\r\n\r\n--9BCE36B8-2C70-44CA-AAA6-D3D332ADBD3F--\r\n"
+13:59:54:671 [REQUEST]  %c <- 12 POST color:green;font-weight:bold false {"rel":null,"_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"}}}
+13:59:55:174 [EVENT]  {"type":"started","target":{"rel":"audioVideoInvitation","href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"audioVideoInvitation","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"},"from":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"},"cancel":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/terminate"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"audioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"reportMediaDiagnostics":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/callMediaDiagnostics?callId=c6581dc3-5f94-4fea-9ce9-a89961f36205&fromUri=sip%3asatxyz%40xyz.onmicrosoft.com&mediaType=Audio"}},"direction":"Outgoing","importance":"Normal","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","state":"Connecting","operationId":"b2e1209b-b069-4064-afdc-1c9b4cc2c0a9","telemetryId":"0c7ec5e9-6822-43cb-bd76-c2ed254a2a3f","sessionContext":"40f5924f-29d3-4303-ba9d-cff4a5c83758"}}
+13:59:55:174 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: audioVideoInvitation started
+13:59:55:175 [EVENT]  {"type":"updated","target":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"audioVideo","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"audioVideoPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/policies"},"stopAudioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/terminate"}},"state":"Connecting","videoSourcesAllowed":"Everyone"}}
+13:59:55:176 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: audioVideo updated
+13:59:55:179 [EVENT]  {"type":"completed","status":"Success","target":{"rel":"audioVideoNegotiation","href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac/negotiations/1"},"sender":{"rel":"audioVideoInvitation","href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"},"resource":{"rel":"audioVideoNegotiation","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac/negotiations/1"},"mediaAnswer":{"href":"data:application/sdp;charset=utf-8,v%3d0%0d%0ao%3d-+1451+0+IN+IP4+10.64.108.72%0d%0as%3dsession%0d%0ac%3dIN+IP4+10.64.108.72%0d%0ab%3dCT%3a1000000%0d%0at%3d0+0%0d%0am%3daudio+53026+RTP%2fSAVP+9+0+8+118+13+101%0d%0ac%3dIN+IP4+10.64.108.72%0d%0aa%3dx-signaling-fb%3a*+x-message+app+send%3adsh%2ccsrc+recv%3asrc%0d%0aa%3dx-ssrc-range%3a1000-1000%0d%0aa%3drtcp%3a53026%0d%0aa%3dice-ufrag%3aeSM6%0d%0aa%3dice-pwd%3ar0eycY0cwYjD1AAgbdVapbCR%0d%0aa%3drtcp-mux%0d%0aa%3dcandidate%3a1+1+UDP+2130706431+10.64.108.72+53026+typ+host%0d%0aa%3dcandidate%3a2+1+tcp-pass+174456319+131.253.128.32+58098+typ+relay+raddr+10.64.108.72+rport+49467%0d%0aa%3dcandidate%3a3+1+UDP+184548351+131.253.128.32+53857+typ+relay+raddr+10.64.108.72+rport+53554%0d%0aa%3dcandidate%3a4+1+tcp-act+174848511+131.253.128.32+58098+typ+relay+raddr+10.64.108.72+rport+49467%0d%0aa%3dx-candidate-ipv6%3a5+1+tcp-pass+174454783+2a01%3a111%3a203e%3a1%3a%3a26+50895+typ+relay+raddr+10.64.108.72+rport+49467%0d%0aa%3dx-candidate-ipv6%3a6+1+tcp-act+174847487+2a01%3a111%3a203e%3a1%3a%3a26+50895+typ+relay+raddr+10.64.108.72+rport+49467%0d%0aa%3dcandidate%3a7+1+tcp-act+1684796415+10.64.108.72+49467+typ+srflx+raddr+10.64.108.72+rport+49467%0d%0aa%3dx-candidate-ipv6%3a8+1+UDP+184545791+2a01%3a111%3a203e%3a1%3a%3a26+50441+typ+relay+raddr+10.64.108.72+rport+53554%0d%0aa%3dlabel%3amain-audio%0d%0aa%3dcrypto%3a1+AES_CM_128_HMAC_SHA1_80+inline%3aZiq1QOqIxZPG8ZK2SyiIkY1ylzJJnmJdDXCucd45%7c2%5e31%0d%0aa%3drtpmap%3a9+g722%2f8000%0d%0aa%3drtpmap%3a0+PCMU%2f8000%0d%0aa%3drtpmap%3a8+PCMA%2f8000%0d%0aa%3drtpmap%3a118+CN%2f16000%0d%0aa%3drtpmap%3a13+CN%2f8000%0d%0aa%3drtpmap%3a101+telephone-event%2f8000%0d%0aa%3dptime%3a20%0d%0am%3dvideo+0+RTP%2fSAVP+100+101+107+116+117+96+97+99+98%0d%0a"},"audioVideoInvitation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"},"audioVideoSession":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoSessions/79e6260886aa442fbc9a7a44e49af4f9"}},"sessionContext":"40f5924f-29d3-4303-ba9d-cff4a5c83758","remoteEndpoint":"satxyz@xyz.onmicrosoft.com; tag=79e6260886aa442fbc9a7a44e49af4f9"}}
+13:59:55:179 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: audioVideoNegotiation completed
+13:59:55:182 [MEDIA]  Final answer from the remote party:
+v=0
+o=- 1451 0 IN IP4 10.64.108.72
+s=session
+c=IN IP4 10.64.108.72
+b=CT:1000000
+t=0 0
+m=audio 53026 RTP/SAVP 9 0 8 118 13 101
+c=IN IP4 10.64.108.72
+a=x-signaling-fb:* x-message app send:dsh,csrc recv:src
+a=x-ssrc-range:1000-1000
+a=rtcp:53026
+a=ice-ufrag:eSM6
+a=ice-pwd:r0eycY0cwYjD1AAgbdVapbCR
+a=rtcp-mux
+a=candidate:1 1 UDP 2130706431 10.64.108.72 53026 typ host
+a=candidate:2 1 tcp-pass 174456319 131.253.128.32 58098 typ relay raddr 10.64.108.72 rport 49467
+a=candidate:3 1 UDP 184548351 131.253.128.32 53857 typ relay raddr 10.64.108.72 rport 53554
+a=candidate:4 1 tcp-act 174848511 131.253.128.32 58098 typ relay raddr 10.64.108.72 rport 49467
+a=x-candidate-ipv6:5 1 tcp-pass 174454783 2a01:111:203e:1::26 50895 typ relay raddr 10.64.108.72 rport 49467
+a=x-candidate-ipv6:6 1 tcp-act 174847487 2a01:111:203e:1::26 50895 typ relay raddr 10.64.108.72 rport 49467
+a=candidate:7 1 tcp-act 1684796415 10.64.108.72 49467 typ srflx raddr 10.64.108.72 rport 49467
+a=x-candidate-ipv6:8 1 UDP 184545791 2a01:111:203e:1::26 50441 typ relay raddr 10.64.108.72 rport 53554
+a=label:main-audio
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:Ziq1QOqIxZPG8ZK2SyiIkY1ylzJJnmJdDXCucd45|2^31
+a=rtpmap:9 g722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:118 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:101 telephone-event/8000
+a=ptime:20
+m=video 0 RTP/SAVP 100 101 107 116 117 96 97 99 98
+
+13:59:55:182 [MEDIA]  webrtc: PROCESS ANSWER sdp: v=0
+o=- 1451 0 IN IP4 10.64.108.72
+s=session
+c=IN IP4 10.64.108.72
+b=CT:1000000
+t=0 0
+m=audio 53026 RTP/SAVP 9 0 8 118 13 101
+c=IN IP4 10.64.108.72
+a=x-signaling-fb:* x-message app send:dsh,csrc recv:src
+a=x-ssrc-range:1000-1000
+a=rtcp:53026
+a=ice-ufrag:eSM6
+a=ice-pwd:r0eycY0cwYjD1AAgbdVapbCR
+a=rtcp-mux
+a=candidate:1 1 UDP 2130706431 10.64.108.72 53026 typ host
+a=candidate:2 1 tcp-pass 174456319 131.253.128.32 58098 typ relay raddr 10.64.108.72 rport 49467
+a=candidate:3 1 UDP 184548351 131.253.128.32 53857 typ relay raddr 10.64.108.72 rport 53554
+a=candidate:4 1 tcp-act 174848511 131.253.128.32 58098 typ relay raddr 10.64.108.72 rport 49467
+a=x-candidate-ipv6:5 1 tcp-pass 174454783 2a01:111:203e:1::26 50895 typ relay raddr 10.64.108.72 rport 49467
+a=x-candidate-ipv6:6 1 tcp-act 174847487 2a01:111:203e:1::26 50895 typ relay raddr 10.64.108.72 rport 49467
+a=candidate:7 1 tcp-act 1684796415 10.64.108.72 49467 typ srflx raddr 10.64.108.72 rport 49467
+a=x-candidate-ipv6:8 1 UDP 184545791 2a01:111:203e:1::26 50441 typ relay raddr 10.64.108.72 rport 53554
+a=label:main-audio
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:Ziq1QOqIxZPG8ZK2SyiIkY1ylzJJnmJdDXCucd45|2^31
+a=rtpmap:9 g722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:118 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:101 telephone-event/8000
+a=ptime:20
+m=video 0 RTP/SAVP 100 101 107 116 117 96 97 99 98
+
+13:59:55:195 [MEDIA]  webrtc: process [answer] set remote description negotiated: {"audio":"sendrecv"} sdp: v=0
+o=- 1451 0 IN IP4 10.64.108.72
+s=session
+c=IN IP4 10.64.108.72
+b=CT:1000000
+t=0 0
+a=msid-semantic: WMS *
+m=audio 53026 RTP/SAVPF 9 0 8 118 13 101
+c=IN IP4 10.64.108.72
+a=rtpmap:9 g722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:118 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:101 telephone-event/8000
+a=rtcp:53026
+a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:Ziq1QOqIxZPG8ZK2SyiIkY1ylzJJnmJdDXCucd45
+a=mid:audio
+a=ptime:20
+a=ice-ufrag:eSM6
+a=ice-pwd:r0eycY0cwYjD1AAgbdVapbCR
+a=candidate:1 1 UDP 2130706431 10.64.108.72 53026 typ host
+a=candidate:2 1 tcp 174456319 131.253.128.32 58098 typ relay raddr 10.64.108.72 rport 49467 tcptype passive
+a=candidate:3 1 UDP 184548351 131.253.128.32 53857 typ relay raddr 10.64.108.72 rport 53554
+a=candidate:4 1 tcp 174848511 131.253.128.32 58098 typ relay raddr 10.64.108.72 rport 49467 tcptype active
+a=candidate:7 1 tcp 1684796415 10.64.108.72 49467 typ srflx raddr 10.64.108.72 rport 49467 tcptype active
+a=candidate:5 1 tcp 174454783 2a01:111:203e:1::26 50895 typ relay raddr 10.64.108.72 rport 49467 tcptype passive
+a=candidate:6 1 tcp 174847487 2a01:111:203e:1::26 50895 typ relay raddr 10.64.108.72 rport 49467 tcptype active
+a=candidate:8 1 UDP 184545791 2a01:111:203e:1::26 50441 typ relay raddr 10.64.108.72 rport 53554
+a=ssrc:1000 cname:15f8bb788c404101b471f5fee285ee89
+a=ssrc:1000 msid:mainAudio-1000 mainAudio-1000
+a=rtcp-mux
+a=x-signaling-fb:* x-message app send:dsh,csrc recv:src
+m=video 0 RTP/SAVPF 36
+
+13:59:55:198 [EVENT]  {"type":"added","target":{"rel":"audioVideoSession","href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoSessions/79e6260886aa442fbc9a7a44e49af4f9"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"audioVideoSession","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoSessions/79e6260886aa442fbc9a7a44e49af4f9"},"renegotiations":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoSessions/79e6260886aa442fbc9a7a44e49af4f9/renegotiations"},"publishCallQualityFeedback":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoSessions/79e6260886aa442fbc9a7a44e49af4f9/callQualityFeedback"},"audioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"}},"state":"Established","sessionContext":"40f5924f-29d3-4303-ba9d-cff4a5c83758","remoteEndpoint":"satxyz@xyz.onmicrosoft.com; tag=79e6260886aa442fbc9a7a44e49af4f9"}}
+13:59:55:198 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: audioVideoSession added
+13:59:55:202 [EVENT]  {"type":"completed","status":"Success","target":{"rel":"audioVideoInvitation","href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"audioVideoInvitation","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"},"from":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"audioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"reportMediaDiagnostics":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/callMediaDiagnostics?callId=c6581dc3-5f94-4fea-9ce9-a89961f36205&fromUri=sip%3asatxyz%40xyz.onmicrosoft.com&mediaType=Audio&toUri=sip%3asatxyz%40xyz.onmicrosoft.com%3bgruu%3bopaque%3dapp%3aconf%3aaudio-video%3aid%3a8A8WKNAE"}},"direction":"Outgoing","importance":"Normal","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","state":"Connected","operationId":"b2e1209b-b069-4064-afdc-1c9b4cc2c0a9","telemetryId":"0c7ec5e9-6822-43cb-bd76-c2ed254a2a3f","sessionContext":"40f5924f-29d3-4303-ba9d-cff4a5c83758"}}
+13:59:55:202 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: audioVideoInvitation completed
+13:59:55:203 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5):sendOffer: audioVideoInvitation completed {"resource":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac","rel":"audioVideoInvitation","properties":{"direction":"Outgoing","importance":"Normal","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","state":"Connected","operationId":"b2e1209b-b069-4064-afdc-1c9b4cc2c0a9","telemetryId":"0c7ec5e9-6822-43cb-bd76-c2ed254a2a3f","sessionContext":"40f5924f-29d3-4303-ba9d-cff4a5c83758"},"related":{"self":[{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"}],"from":[{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"}],"conversation":[{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"}],"audioVideo":[{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"}],"reportMediaDiagnostics":[{"href":"/ucwa/oauth/v1/applications/111259687377/communication/callMediaDiagnostics?callId=c6581dc3-5f94-4fea-9ce9-a89961f36205&fromUri=sip%3asatxyz%40xyz.onmicrosoft.com&mediaType=Audio&toUri=sip%3asatxyz%40xyz.onmicrosoft.com%3bgruu%3bopaque%3dapp%3aconf%3aaudio-video%3aid%3a8A8WKNAE"}]},"embedded":{},"isLink":false,"eventRecv":true},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"target":{"rel":"audioVideoInvitation","href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoInvitations/2fe36619d2b54f8ea93e47d6862860ac"},"status":"Success","type":"completed"}
+13:59:55:222 [MEDIA]  webrtc: onsignalingstatechange signalingState: stable
+13:59:55:262 [MEDIA]  webrtc: remote endpoint didn't specify video receive capability
+13:59:55:263 [MEDIA]  webrtc: oniceconnectionstatechange iceConnectionState: checking pc.signalingState: stable
+13:59:55:264 [MEDIA]  webrtc: onaddstream stream: [object MediaStream]
+13:59:55:269 [MEDIA]  audio: starting playout
+13:59:55:270 [MEDIA]  webrtc: negotiation completed isComplete: true configured: {"audio":"sendrecv","video":"sendrecv"} negotiating: {"audio":"sendrecv","video":"sendrecv"} offered: {"audio":"sendrecv","video":"sendrecv"} negotiated: {"audio":"sendrecv"}
+13:59:55:309  [MEDIA] WebRtcAudioVideoSession(9ddbb323349c5)::state:: %c Connecting -> Connected,color:green;font-weight:bold
+13:59:55:310  [MEDIA] WebRtcAudioVideoSession(9ddbb323349c5)::audioState:: %c Connecting -> Connected,color:green;font-weight:bold
+13:59:55:310  [MEDIA] AudioVideoModality(05909b02bb574)::audioState:: %c Connecting -> Connected,color:green;font-weight:bold
+13:59:55:310 [MEDIA]  %c Call connected Fri Feb 17 2017 13:59:55 GMT+0530 (India Standard Time) color:green;font-weight:bold
+13:59:55:310 [MODEL]  Participant (satxyz)::audio state:: Connecting=>Connected undefined
+13:59:55:310 [MODEL]  Participant (satxyz)::state:: Disconnected=>Connected undefined
+13:59:55:320  [MEDIA] AudioVideoModality(05909b02bb574)::state:: %c Connecting -> Connected,color:green;font-weight:bold
+13:59:55:320  [MEDIA] WebRtcAudioVideoSession(9ddbb323349c5)::videoState:: %c Connecting -> Disconnected,color:green;font-weight:bold
+13:59:55:320 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::resetVideo undefined
+13:59:55:320 [MEDIA]  Participant::SetVideoStream  stream %cnull, satxyz color:green;font-weight:bold
+13:59:55:320 [MODEL]  Participant (satxyz)::video state:: Connecting=>Disconnected undefined
+13:59:55:321 [MEDIA]  WebRtcActiveSpeaker::SetVideoStream  stream %cnull color:green;font-weight:bold
+13:59:55:321  [MEDIA] AudioVideoModality(05909b02bb574)::videoState:: %c Connecting -> Disconnected,color:green;font-weight:bold
+13:59:55:494 [MEDIA]  webrtc: oniceconnectionstatechange iceConnectionState: connected pc.signalingState: stable
+13:59:56:396 [EVENT]  {"type":"added","in":{"rel":"localParticipant","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"},"target":{"rel":"participantAudio","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com/audio"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"participantAudio","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com/audio"},"participant":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"},"muteAudio":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com/audio/mute"}},"audioSourceId":"1","audioDirection":"SendReceive","audioMuted":false}}
+13:59:56:396 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: participantAudio added
+13:59:56:397 [MODEL]  Participant (satxyz)::audioSourceId:: -1=>1 undefined
+13:59:56:400 [EVENT]  {"type":"updated","target":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"sender":{"rel":"communication","href":"/ucwa/oauth/v1/applications/111259687377/communication"},"resource":{"rel":"conversation","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"applicationSharing":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/applicationSharing"},"audioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"dataCollaboration":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/dataCollaboration"},"messaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/messaging"},"phoneAudio":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/phoneAudio"},"localParticipant":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants/satxyz@xyz.onmicrosoft.com","title":"satxyz"},"participants":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants"},"addParticipant":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/participantInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5"},"leaders":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=leaders"},"attendees":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=attendees"},"lobby":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/participants?filter=lobby"},"onlineMeeting":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/onlineMeeting"},"enableAudienceMuteLock":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/enableAudienceMuteLock"},"disableAudienceMessaging":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/disableAudienceMessaging"}},"state":"Conferenced","threadId":"AdKI9/trSFVhCA5jQB+1jp36PTJPbA==","subject":"","activeModalities":["Audio"],"importance":"Normal","participantCount":1,"audienceMute":"Disabled","audienceMessaging":"Enabled","recording":false}}
+13:59:56:401 [EVENT]  {"type":"updated","target":{"rel":"phoneAudio","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/phoneAudio"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"phoneAudio","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/phoneAudio"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"}},"state":"Disconnected"}}
+13:59:56:403 [EVENT]  {"type":"updated","target":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"audioVideo","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"conversation":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"publishTelemetry":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/publishTelemetry?id=0c7ec5e9-6822-43cb-bd76-c2ed254a2a3f&callId=c6581dc3-5f94-4fea-9ce9-a89961f36205&fromTag=d04eef1d1f&toTag=e5155cc0a5&toUri=sip%3asatxyz%40xyz.onmicrosoft.com%3bgruu%3bopaque%3dapp%3aconf%3afocus%3aid%3a8A8WKNAE&fromUri=sip%3asatxyz%40xyz.onmicrosoft.com"},"reportMediaDiagnostics":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/callMediaDiagnostics?callId=c6581dc3-5f94-4fea-9ce9-a89961f36205&fromUri=sip%3asatxyz%40xyz.onmicrosoft.com&mediaType=Audio&toUri=sip%3asatxyz%40xyz.onmicrosoft.com%3bgruu%3bopaque%3dapp%3aconf%3aaudio-video%3aid%3a8A8WKNAE&fromTag=d04eef1d1f&toTag=e5155cc0a5"},"reportRateMyCall":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/rateMyCall?callId=c6581dc3-5f94-4fea-9ce9-a89961f36205&fromTag=d04eef1d1f&toTag=e5155cc0a5"},"replaceWithPhoneAudio":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/phoneAudioInvitations?conversation=e615f699-e5d3-482e-a914-25ea773b9bd5&replaceVoip=true"},"audioVideoPolicies":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/policies"},"audioVideoSession":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/audioVideoSessions/79e6260886aa442fbc9a7a44e49af4f9"},"stopAudioVideo":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/terminate"}},"state":"Connected","videoSourcesAllowed":"Everyone","supportsReplaces":"Disabled"}}
+13:59:56:403 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: audioVideo updated
+13:59:56:408 [EVENT]  {"type":"updated","target":{"rel":"presence","href":"/ucwa/oauth/v1/applications/111259687377/me/presence"},"sender":{"rel":"me","href":"/ucwa/oauth/v1/applications/111259687377/me"}}
+13:59:56:408 [REQUEST]  %c -> 13 GET color:blue;font-weight:bold false
+13:59:56:410 [EVENT]  {"type":"added","in":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"target":{"rel":"dominantSpeakers","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"dominantSpeakers","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"}},"dominantSpeakerId":1,"globalTimeStamp":"2017-02-17 08:29:57Z","history":["1"],"sequenceNumber":0}}
+13:59:56:413 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: dominantSpeakers added
+13:59:56:957 [REQUEST]  %c <- 13 GET color:green;font-weight:bold false {"rel":"presence","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/me/presence"}},"availability":"Busy","activity":"in-a-conference"}
+14:00:01:3 [EVENT]  {"type":"updated","in":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"target":{"rel":"dominantSpeakers","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"dominantSpeakers","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"}},"dominantSpeakerId":1,"globalTimeStamp":"2017-02-17 08:30:02Z","history":["1"],"sequenceNumber":1}}
+14:00:01:3 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: dominantSpeakers updated
+14:00:04:59 [EVENT]  {"type":"updated","in":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"target":{"rel":"dominantSpeakers","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"dominantSpeakers","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"}},"dominantSpeakerId":1,"globalTimeStamp":"2017-02-17 08:30:05Z","history":["1"],"sequenceNumber":2}}
+14:00:04:59 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: dominantSpeakers updated
+14:00:08:106 [EVENT]  {"type":"updated","in":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"target":{"rel":"dominantSpeakers","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"dominantSpeakers","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"}},"dominantSpeakerId":1,"globalTimeStamp":"2017-02-17 08:30:09Z","history":["1"],"sequenceNumber":3}}
+14:00:08:106 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: dominantSpeakers updated
+14:00:10:375 [MEDIA]  webrtc: oniceconnectionstatechange iceConnectionState: completed pc.signalingState: stable
+14:00:14:184 [EVENT]  {"type":"updated","in":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"target":{"rel":"dominantSpeakers","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"dominantSpeakers","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"}},"dominantSpeakerId":1,"globalTimeStamp":"2017-02-17 08:30:16Z","history":["1"],"sequenceNumber":4}}
+14:00:14:185 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: dominantSpeakers updated
+14:00:20:287 [EVENT]  {"type":"updated","in":{"rel":"audioVideo","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo"},"target":{"rel":"dominantSpeakers","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"},"sender":{"rel":"conversation","href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5"},"resource":{"rel":"dominantSpeakers","_links":{"self":{"href":"/ucwa/oauth/v1/applications/111259687377/communication/conversations/e615f699-e5d3-482e-a914-25ea773b9bd5/audioVideo/dominantSpeakers"}},"dominantSpeakerId":1,"globalTimeStamp":"2017-02-17 08:30:22Z","history":["1"],"sequenceNumber":5}}
+14:00:20:309 [MEDIA]  WebRtcAudioVideoSession(9ddbb323349c5)::onServerEvent: dominantSpeakers updated
